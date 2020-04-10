@@ -1,97 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>Ankiviet</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>Simple Sidebar - Start Bootstrap Template</title>
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet" />
+  </head>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/simple-sidebar.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <div class="d-flex" id="wrapper">
-
-    <!-- Sidebar -->
-    <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
-      <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
-      </div>
-    </div>
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
+  <body>
+    <div class="d-flex" id="wrapper">
+      <!-- Sidebar -->
+      <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading"><b>Practice Modules</b></div>
+        <div class="list-group list-group-flush">
+          <a href="#" class="list-group-item list-group-item-action bg-light"
+            >Dashboard</a
+          >
+          <a href="#" class="list-group-item list-group-item-action bg-light"
+            >Shortcuts</a
+          >
+          <a href="#" class="list-group-item list-group-item-action bg-light"
+            >Overview</a
+          >
+          <a href="#" class="list-group-item list-group-item-action bg-light"
+            >Events</a
+          >
+          <a href="#" class="list-group-item list-group-item-action bg-light"
+            >Profile</a
+          >
+          <a href="#" class="list-group-item list-group-item-action bg-light"
+            >Status</a
+          >
         </div>
-      </nav>
-
-      <div class="container-fluid">
-        <h1 class="mt-4">Simple Sidebar</h1>
-        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
       </div>
+      <!-- /#sidebar-wrapper -->
+
+      <!-- Page Content -->
+      <div id="page-content-wrapper">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light border-bottom"
+        >
+          <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Speaking
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                  <a class="dropdown-item" href="#">Item 4</a>
+                  <a class="dropdown-item" href="#">Item 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Listening
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                  <a class="dropdown-item" href="#">Item 4</a>
+                  <a class="dropdown-item" href="#">Item 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Reading
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                  <a class="dropdown-item" href="#">Item 4</a>
+                  <a class="dropdown-item" href="#">Item 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Listening
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                  <a class="dropdown-item" href="#">Item 4</a>
+                  <a class="dropdown-item" href="#">Item 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Writing
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                  <a class="dropdown-item" href="#">Item 4</a>
+                  <a class="dropdown-item" href="#">Item 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Grammar
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Item 1</a>
+                  <a class="dropdown-item" href="#">Item 2</a>
+                  <a class="dropdown-item" href="#">Item 3</a>
+                  <a class="dropdown-item" href="#">Item 4</a>
+                  <a class="dropdown-item" href="#">Item 5</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">IELTS Section</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contributions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="container-fluid">
+          <h1 class="mt-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet mattis odio
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet mattis odio. Nullam in nunc pretium, sodales tellus non,
+            tincidunt nibh. Maecenas pellentesque ullamcorper fringilla. Etiam
+            interdum luctus nisl ac ultrices. Sed a venenatis justo. Ut non nisl
+            a tellus feugiat fringilla. Proin eleifend, est ut porta accumsan,
+            purus justo suscipit velit, id finibus nunc elit ut nunc. Phasellus
+            laoreet mattis facilisis. Fusce tristique elementum felis. Cras
+            sollicitudin vel erat at molestie. Suspendisse vel aliquet augue.
+            Donec sem orci, accumsan vel justo eget, imperdiet tristique orci.
+            Vestibulum vitae turpis sagittis lacus vehicula ultrices. Phasellus
+            quis porttitor erat. Praesent porta et nulla in posuere.
+          </p>
+          <p>
+            Praesent suscipit tincidunt vulputate. Nam cursus sollicitudin
+            mollis. Suspendisse nisl erat, pulvinar eget tincidunt quis,
+            condimentum vel leo. Praesent sed metus facilisis, laoreet quam eu,
+            tempus ligula. Suspendisse lectus metus, ornare at lobortis in,
+            faucibus eu justo. Fusce risus dolor, posuere at imperdiet at,
+            feugiat at massa. Donec auctor egestas dapibus. Proin at convallis
+            leo. Duis id ante sit amet dolor pharetra tempor quis varius justo.
+            Pellentesque ornare egestas risus ultricies consequat. Donec id
+            placerat mi. Donec interdum est sed orci facilisis iaculis.
+          </p>
+          <p>
+            Integer vestibulum turpis ut nisi porta, quis iaculis turpis
+            scelerisque. Integer rutrum ligula at mauris consectetur, sit amet
+            gravida ex rutrum. Aliquam vitae est ut neque ullamcorper blandit.
+            Aenean dapibus libero eget risus cursus, a laoreet enim cursus.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Proin ullamcorper felis sit amet purus
+            accumsan, eget accumsan leo varius. Morbi non quam id arcu pharetra
+            mattis. Donec non augue ultricies, mattis urna nec, dignissim dolor.
+            Fusce eleifend non leo eu tincidunt. Nam fermentum semper tellus, et
+            feugiat orci gravida id. Vivamus ut commodo ligula. Proin aliquet
+            egestas mauris eget placerat. Sed id ornare tortor. Fusce lorem
+            velit, lacinia id pharetra dignissim, cursus eu dolor. Etiam
+            efficitur erat vestibulum nisl malesuada, quis pellentesque tortor
+            vehicula. Nam dictum scelerisque lorem, ac feugiat dui efficitur in.
+          </p>
+          <p>
+            Suspendisse nec velit id dui blandit feugiat. Duis euismod a magna
+            id condimentum. Mauris ipsum lectus, lacinia at dictum tincidunt,
+            mollis sed eros. Morbi sed malesuada risus. Aliquam a tempor nisl.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            imperdiet leo vitae tempus ornare. Aenean tristique libero eu ex
+            eleifend feugiat. Morbi sollicitudin, magna vel semper tempus, nisi
+            tellus finibus mi, nec sollicitudin nibh lorem at turpis. Nunc
+            interdum suscipit lobortis. Pellentesque id arcu consectetur,
+            fringilla erat vel, eleifend tellus. Duis maximus eu dui ac congue.
+            Duis ac rutrum turpis. Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas. Aliquam
+            fermentum, augue sodales vulputate cursus, metus dui mollis mauris,
+            a pulvinar arcu dui in lectus.
+          </p>
+        </div>
+      </div>
+      <!-- /#page-content-wrapper -->
     </div>
-    <!-- /#page-content-wrapper -->
+    <!-- /#wrapper -->
 
-  </div>
-  <!-- /#wrapper -->
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function(e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
-  </script>
-
-</body>
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/js//main.js"></script>
+    <!-- Menu Toggle Script -->
+    <script>
+      $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+  </body>
 </html>
