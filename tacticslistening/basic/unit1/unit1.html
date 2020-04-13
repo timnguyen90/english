@@ -1,0 +1,49 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="btn-group d-flex mt-2">
+      <button type="button" id="getting-ready" class="btn btn-info">
+        1. Getting Ready
+      </button>
+      <button type="button" id="let-listent1" class="btn btn-secondary">
+        2. Let's Listen
+      </button>
+      <button type="button" id="let-listent2" class="btn btn-secondary">
+        3. Let's Listen
+      </button>
+      <button type="button" id="let-listent3" class="btn btn-secondary">
+        4. Let's Listen
+      </button>
+      <button type="button" id="over-to-you" class="btn btn-danger">
+        Over To You
+      </button>
+    </div>
+  </div>
+  <div class="col-md-12 mt-3">
+    <div id="unitOneMainContent">
+
+    </div>
+  </div>
+</div>
+
+<script>
+  /* Getting Ready */
+  $("#getting-ready").on("click", function () {
+    $('#unitOneMainContent').load('./tacticslistening/basic/unit1/getttingready.html');
+  });
+  /* Let's Listen 1 */
+  $("#let-listent1").on("click", function () {
+    alert("2");
+  });
+  /* Let's Listen 2*/
+  $("#let-listent2").on("click", function () {
+    alert("3");
+  });
+  /* Let's Listen 3*/
+  $("#let-listent3").on("click", function () {
+    alert("4");
+  });
+  /* Over To You */
+  $("#over-to-you").on("click", function () {
+    alert("5");
+  });
+</script>
